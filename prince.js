@@ -12,12 +12,6 @@ module.exports = Prince
 module.exports.PrinceOptions = PrinceOptions
 
 /*
-  Default folder to generate pdfs
-*/
-
-var tempFolder =  (process.platform === 'win32') ? ["c:", "windows", "temp"].join(path.sep) : '/tmp';
-
-/*
   On module start-up find in the path for prince binary
 
 */
