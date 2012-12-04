@@ -1,0 +1,25 @@
+{
+  "name": "princeXML",
+  "version": "0.0.1",
+  "description": "Node Module to create PDF using the awesome PrinceXML",
+  "main": "prince.js",
+  
+  "scripts": {
+  },
+
+  "keywords": [
+    "pdf",
+    "prince",
+    "html"
+  ],
+
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "node-uuid": "*",
+    "opener": "*"
+   },
+
+  "author": "Thiago Dantas <thiago.teixeira.dantas@gmail.com>",
+  "license": "MIT"
+}
