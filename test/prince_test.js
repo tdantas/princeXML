@@ -1,5 +1,5 @@
 var should = require('should')
-var Prince = require('../prince')
+var Prince = require('..')
 
 describe('Prince', function(){
 

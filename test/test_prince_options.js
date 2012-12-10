@@ -1,5 +1,5 @@
 var should = require('should')
-var PrinceOptions = require('../prince').PrinceOptions
+var PrinceOptions = require('..').PrinceOptions
 
 describe('Prince Options', function() {
 	it('should create a PrinceOptions with all arguments', function() {
